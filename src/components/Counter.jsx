@@ -20,10 +20,11 @@ const Counter = () => {
   return (
     <div>
       {{ count }.count > 0 ? (
-        <h2>{count}</h2>
+        <h2>{count}KR</h2>
       ) : (
         <p>You don't have money for withdrawal</p>
       )}
+      <p>Withdraw</p>
       <button
         onClick={() => {
           dispatch(decrement100());
@@ -54,6 +55,7 @@ const Counter = () => {
       </button>
       <br />
       <br />
+      <p>Deposit</p>
       <button
         onClick={() => {
           dispatch(increment100());

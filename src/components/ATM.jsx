@@ -9,12 +9,12 @@ const ATM = () => {
   return (
     <div>
       <h2>REDUX @toolkit ATM</h2>
-      <button onClick={() => dispatch(toggleAtm())}>Start ATM</button>
+      <button onClick={() => dispatch(toggleAtm())}>Start/Close ATM</button>
       <br />
       <br />
       {atm ? (
         <div>
-          <h2>amount:</h2>
+          <h2>Account Balance:</h2>
           <Counter />
         </div>
       ) : (
