@@ -1,3 +1,13 @@
 .App {
+  background-color: rgb(240, 205, 50);
   text-align: center;
+}
+
+button {
+  background-color: rgb(17, 17, 109);
+  color: aliceblue;
+}
+.attension {
+  color: rgb(211, 51, 46);
+  font-family: fantasy;
 }
